@@ -6,7 +6,7 @@
 import java.util.Scanner;
 
 public class Input_float_data {
-	private Scanner scanner = new Scanner(System.in);
+	private final Scanner scanner = new Scanner(System.in);
 	private String input;
 	
 	public String getInput() {

@@ -1,5 +1,7 @@
+import java.io.IOException;
+
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 //		Задание 1
 		System.out.println(user_input());
 		
@@ -42,12 +44,14 @@ public class Main {
 //		Задание 2.2
 //		Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку.
 //		Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
-	
+		
+		Not_null_input null_input = new Not_null_input();
+		null_input.not_null_inp();
 	
 		
 	}
 	
-	public static float user_input() {
+	public static float user_input(){
 		Input_float_data input = new Input_float_data();
 		input.setInput("");
 		while (!input.is_float()) {
