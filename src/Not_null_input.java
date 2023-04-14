@@ -12,7 +12,9 @@ public class Not_null_input {
 	public void not_null_inp() throws Exception {
 		try (Scanner scanner = new Scanner(System.in)) {
 			setInput(scanner.nextLine());
-			if (!is_not_null()) {
+			if (is_not_null()) {
+				throw new NullPointerException();
+			} else if (getInput().equals("")) {
 				throw new NullPointerException();
 			} else {
 			System.out.println(getInput());
@@ -31,7 +33,7 @@ public class Not_null_input {
 	}
 	
 	private boolean is_not_null(){
-		return getInput().matches(".");
+		return getInput() == null;
 	}
 	
 	
