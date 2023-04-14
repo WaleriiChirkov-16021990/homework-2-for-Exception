@@ -13,7 +13,7 @@ public class Main {
 //			int catchedRes1 =  d / array[8];
 //			System.out.println("catchedRes1 = 0");
 //		} catch (ArithmeticException e) {
-//			System.out.println("Catching exception: " + e.message);
+//			System.out.println("Catching exception: " + e.getMessage());
 //		}
 
 //		или можно рандомизировать d и оставить формулу double catchedRes1 =  array[8] / d;
