@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bc9790d-4e48-45cc-a572-59ccb146cb1a" name="Changes" comment="three commit/ final version project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Not_null_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Not_null_input.java" afterDir="false" />
+    <list default="true" id="0bc9790d-4e48-45cc-a572-59ccb146cb1a" name="Changes" comment="four commit/ final version project 1.0">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681419881229</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="four commit/ final version project 1.0">
+      <created>1681496569798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681496569798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +92,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="two commit , left last task" />
     <MESSAGE value="three commit/ final version project" />
-    <option name="LAST_COMMIT_MESSAGE" value="three commit/ final version project" />
+    <MESSAGE value="four commit/ final version project 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="four commit/ final version project 1.0" />
   </component>
 </project>
